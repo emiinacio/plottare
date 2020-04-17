@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header .navbar-brand img {
+    opacity: 90%;
+    width: 200px;
+}
+
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #383636, #000000);
+    --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+header a {
+    font-family: var(--Rubik);
+    font-weight: bold;
+    font-size: 3vmin;
+    color: whitesmoke;
+    font-size: 1vmin;
+}
+
+header .navbar-nav .nav-link {
+    font-size: 2vmin;
+}
+
+header {
+    height: 900px;
+    background: black;
+    width: 100%;
+}
+
+
+header li a:hover {
+    color: rgb(87, 87, 87);
+}
+
+header .nav-item {
+    padding-right: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 2rem;
+}
+
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-12 {
+    padding: 7vmin 1vmin;
+    font-family: var(--Rubik);
+    color: white;
+}
+
+header .row .col-md-12 h3 {
+    padding: 7vmin;
+    letter-spacing: 4px;
+}
+
+header .col-md-12 h1 {
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header .col-md-12 button {
+    text-decoration: none;
+
+    border-radius: 30px;
+    font-weight: bold;
+    height: 54px;
+    width: 241px;
+    padding: 50px;
+}
+
+header .col-md-12 a {
+    color: black;
+    text-decoration: none;
+}
+
+header .col-md-12 button:hover {
+    border: none;
+    background-color: rgb(87, 87, 87);
+    border: none;
+    transition: 400ms;
+    color: whitesmoke;
+}
+
+/*    Section 1     */
+
+.section-1 {
+    padding: 10vmin 15vmin;
+}
+
+
+.section-1 .panel {
+    top: 7vmin;
+    background: white;
+    border-radius: 20px;
+    padding: 10vmin 5vmin 10vmin 5vmin;
+    box-shadow: 15px 25px 42px rgba(46, 30, 30, 0.1);
+}
+
+.section-1 .row .col-md-12 {
+    padding: 50px 100px;
+}
+
+.section-1 .row .col-md-12 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section-1 .row .col-md-12 .panel p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.9em;
+    padding: 0% 10%;
+    text-align: justify;
+}
+
+/*    Section 2     */
+
+.cover {
+    width: 100vw;
+    height: 55vmin;
+    background-image: url("../assets/pexels-photo-452738.jpeg");
+    background-position: -25rem -20rem;
+    background-size: 150%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.cover .content {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100vw;
+    padding: 19vmin;
+}
+
+.cover .content>h1 {
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.cover .content>p {
+    font-family: var(--Rubik);
+    font-size: 2vmin;
+    color: #e5e5e5;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    height: 12rem;
+    width: 17rem;
+    margin: 1rem;
+    padding-top: 3.5vmin;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px rgba(27, 24, 24, 0.3);
+}
+
+.numbers {
+    margin-top: -15vmin;
+}
+
+.numbers .rect h1 {
+    font-size: 5rem;
+    color: #3f3232;
+}
+
+.numbers .rect p {
+    font-family: var(--Patua);
+}
+
+.slider>h1 {
+    font-size: 6vmin;
+    text-align: center;
+    padding-top: 4vmin;
+    font-family: var(--Patua);
+}
+
+.slider .carousel {
+    margin: 50px 50px;
+    padding: 50 0px;
+}
+
+.slider .carousel-control-next .carousel-control-prev-icon {
+    height: 100px;
+    width: 100px;
+}
+
+/*    Section 3    */
+.section-3 .col-md-12>h1 {
+    color: black;
+}
+
+.section-3 {
+    padding: 40px;
+    position: relative;
+    background: var(--bggradient);
+}
+
+.section-3 .col-sm-12 {
+    margin-right: 1vmin;
+    margin-left: 1vmin;
+}
+
+.section-3 .col-md-12>h1 {
+    padding: 2em 0 0 0.5em;
+    color: whitesmoke;
+    font-size: 6vmin;
+}
+
+
+.section-3 label {
+    color: whitesmoke;
+    margin: 1vmin;
+}
+
+.section-3 button {
+    border-radius: 30px;
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+}
+
+.section-3 button:hover {
+    color: white;
+    background-color: rgb(87, 87, 87);
+    transition: 400ms;
+}
+
+.section-3 .form-row textarea {
+    height: 38px;
+}
+
+/*    Section 4     */
+
+.section-4 .container>h1 {
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    padding-top: 5vmin;
+}
+
+.section-4 .team {
+    padding-bottom: 10vmin;
+    padding-left: 15vmin;
+    padding-right: 15vmin;
+}
+
+.section-4 .card {
+    width: 22rem;
+    margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+    padding: 0.5em;
+}
+
+.section-4 .card a {
+    font-size: 1.5em;
+}
+
+.section-4 .card-body .card-text {
+    text-align: justify;
+}
+
+.section-4 .card img {
+    margin-top: 3vmin;
+    border-radius: 340px;
+    height: 150px;
+    width: 150px;
+}
+
+.tela-inteira {
+    background: var(--bggradient);
+    width: 300px;
+    height: 250px;
+}
+
+.tela-inteira iframe {
+    padding: 5px;
+    height: 250px;
+    width: 100%;
+}
+
+.map-container-2 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 400px;
+}
+
+.map-container-2 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* FOOTER*/
+
+footer {
+    background: black;
+    overflow: hidden;
+    padding: 5vmin 2vmin;
+}
+
+footer h4 {
+    text-align: left;
+}
+
+footer a {
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: rgb(87, 87, 87);
+}
+
+footer p {
+    color: whitesmoke;
+}
+
+footer .container {
+    padding: 0px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+footer .flexbox {
+    padding: 0 0px;
+}
+
+footer .column i {
+    color: whitesmoke;
+}
+
+footer .column i+i {
+    padding: 2px;
+}
+
+footer .grid {
+    padding: 0 25px;
+}
