@@ -1,0 +1,189 @@
+@media only screen and (max-width: 768px) {
+    .navbar-nav {
+        font-size: 4vmin;
+    }
+
+    header {
+        height: 900px;
+    }
+
+    header .col-md-12 h1 {
+        font-size: 10.5vmin;
+    }
+
+    header .row .col-md-12 h3 {
+        font-size: 6vmin;
+    }
+
+    header .navbar-collapse a {
+        font-size: 3vmin;
+    }
+
+    header .navbar-nav .nav-link {
+        font-size: 3vmin;
+    }
+
+    .section-1 .row .col-md-12 {
+        padding: 0;
+    }
+
+    .section-1 .row .col-md-6 .pray img {
+        width: 20s;
+        border-radius: 0.2em;
+    }
+
+    .section-2 .cover {
+        background-position: -25vmin;
+    }
+
+    .section-3 .col-md-12>h1 {
+        font-size: 6vmin;
+        padding: 0 0 1em;
+
+    }
+
+    .slider .carousel {
+        margin: 50px 20px;
+        padding: 50 0px;
+    }
+
+    .section-4 .team {
+        padding: 5vmin 2vmin;
+    }
+
+    .tela-inteira {
+        width: 250px;
+    }
+
+    .tela-inteira iframe {
+        padding: 5px;
+        height: 200px;
+        width: 100%;
+    }
+
+    footer .span_4 p {
+        font: 4vmin;
+    }
+
+    footer {
+        padding: 3vmin;
+    }
+
+    footer .grid {
+        padding-left: 1px;
+    }
+
+    footer .flexbox {
+        padding-left: 50px;
+    }
+
+    footer .row {
+        margin: 0;
+
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    header .navbar-brand {
+        padding-left: 1vmin;
+    }
+
+    header {
+        height: 850px;
+    }
+
+    header .navbar-brand img {
+        width: 150px;
+    }
+
+    header .col-md-12 h1 {
+        margin: 30px 0;
+    }
+
+    header .row .col-md-12 h3 {
+        padding: 35px 0;
+    }
+
+    .section-1 {
+        width: 100vw;
+        padding: 15vmin 15vmin;
+    }
+
+    .section-4 .container>h1 {
+        font-size: 7vmin;
+    }
+
+    .slider>h1 {
+        font-size: 9vmin;
+    }
+
+    footer .flexbox {
+        padding: 0px;
+    }
+
+    footer .grid {
+        padding: 0 5px;
+    }
+
+    footer .span_4 {
+        padding-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    header {
+        height: 570px;
+    }
+
+    header .navbar-brand img {
+        width: 150px;
+    }
+
+    .section-1 .panel {
+        padding: 10vmin 0px;
+    }
+
+    .section-4 .team {
+        padding: 20px 10px;
+    }
+
+    footer .container {
+        padding: 5px;
+    }
+
+    footer .span_4 {
+        padding-left: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .section-1 {
+        width: 100vw;
+        padding: 19vmin 15vmin;
+    }
+
+    .section-3 .col-md-12>h1 {
+        font-size: 8vmin;
+    }
+
+    .section-4 .container>h1 {
+        font-size: 10vmin;
+    }
+
+    .section-4 .team {
+        padding: 10vmin 0vmin;
+    }
+
+    .section-4 .card {
+        width: 17rem;
+        margin: 10vmin 3vmin;
+    }
+
+    footer .span_4 {
+        padding-left: 20px;
+    }
+
+}

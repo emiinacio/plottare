@@ -1,0 +1,44 @@
+
+footer {
+    background: black;
+    overflow: hidden;
+    padding: 5vmin 2vmin;
+}
+
+footer h4 {
+    text-align: left;
+}
+
+footer a {
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: rgb(87, 87, 87);
+}
+
+footer p {
+    color: whitesmoke;
+}
+
+footer .container {
+    padding: 0px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+footer .flexbox {
+    padding: 0 0px;
+}
+
+footer .column i {
+    color: whitesmoke;
+}
+
+footer .column i+i {
+    padding: 2px;
+}
+
+footer .grid {
+    padding: 0 25px;
+}
